@@ -1,0 +1,31 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "author": "Milan de Kruijf <contact@milandekruijf.com>",
+  "description": "description",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milandekruijf/name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milandekruijf/pandacss-preset-typography/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "",
+    "prepublish": "pnpm build"
+  },
+  "packageManager": "pnpm@8.6.9",
+  "devDependencies": {
+    "tsup": "^7.1.0"
+  }
+}
